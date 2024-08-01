@@ -1,0 +1,19 @@
+[
+  { "id": "html" },
+  { "id": "css" },
+  { "id": "github" },
+  { "id": "firebase" },
+  { "id": "figma" },
+  { "id": "react" },
+  { "id": "js" },
+  { "id": "ts" },
+  { "id": "npm" },
+  { "id": "redux" },
+  { "id": "vscode" },
+  { "id": "vite" },
+  { "id": "vercel" },
+  { "id": "tailwind" },
+  { "id": "trello" },
+  { "id": "axios" },
+  { "id": "postman" }
+]

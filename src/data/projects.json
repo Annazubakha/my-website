@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1",
+    "title": "petLove",
+    "description": "The website for pet lovers",
+    "done": "all of the site",
+    "websiteLink": "https://annazubakha.github.io/petLove/home",
+    "repoLink": "https://github.com/Annazubakha/petLove",
+    "technologies": [
+      "react",
+      "redux",
+      "js",
+      "css",
+      "html",
+      "figma",
+      "vscode",
+      "npm",
+      "github",
+      "taiwind"
+    ],
+    "img": "src/assets/images/petLove.png"
+  },
+  {
+    "id": "2",
+    "title": "Nanny.Services",
+    "description": "An application where you can search and book nanny",
+    "done": "all of the site",
+    "websiteLink": "https://annazubakha.github.io/nanny-services/",
+    "repoLink": "https://github.com/Annazubakha/nanny-services",
+    "technologies": [
+      "react",
+      "firebase",
+      "css",
+      "html",
+      "js",
+      "npm",
+      "vscode",
+      "figma",
+      "github"
+    ],
+    "img": "src/assets/images/nanniesServices.png"
+  },
+
+  {
+    "id": "3",
+    "title": "Task Pro",
+    "description": "An all-in-one scheduling app",
+    "done": "welcome and auth pages, redux for auth, modal window for add card and filters",
+    "websiteLink": "https://dimkagrek.github.io/NodeAvengers/welcome",
+    "repoLink": "https://github.com/DimkaGrek/NodeAvengers",
+    "technologies": [
+      "react",
+      "redux",
+      "js",
+      "css",
+      "html",
+      "figma",
+      "vscode",
+      "npm",
+      "github"
+    ],
+    "img": "src/assets/images/taskPro.png"
+  },
+  {
+    "id": "4",
+    "title": "EXPENSETRACKER",
+    "description": "The site for tracking income and expense",
+    "done": "welcome page, login and register pages",
+    "websiteLink": "https://project-capybara-66-rust.vercel.app/",
+    "repoLink": "https://github.com/ZhurbeyArtem/project-Capybara-66",
+    "technologies": [
+      "react",
+      "redux",
+      "js",
+      "css",
+      "html",
+      "figma",
+      "vscode",
+      "npm",
+      "github"
+    ],
+    "img": "src/assets/images/tracker.png"
+  },
+  {
+    "id": "5",
+    "title": "Food Boutique",
+    "description": "An online store for purchasing products with a convenient and intuitive interface",
+    "done": "header, filtering by alphabet, popularity and price",
+    "websiteLink": "https://dimkagrek.github.io/AsyncAvengers/",
+    "repoLink": "https://github.com/DimkaGrek/AsyncAvengers",
+    "technologies": ["js", "css", "html", "figma", "vscode", "github"],
+    "img": "src/assets/images/boutique.png"
+  }
+]

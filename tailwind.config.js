@@ -26,9 +26,12 @@ export default {
     },
     extend: {
       colors: {
-        "main-bg": "#212529",
-        white: "#ffff",
+        "main-bg": "#2A2E33",
         accent: "#9736bb",
+        "accent-hover": " #842a9e",
+        "burger-menu-bg": "#202226",
+        // "main-color": "#c4cfde",
+        white: "#FAFAFA",
       },
     },
   },

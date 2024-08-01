@@ -3,5 +3,43 @@
 @tailwind utilities;
 
 body {
-  @apply bg-main-bg text-accent text-[45px] font-montserrat;
+  @apply bg-main-bg  text-white  font-montserrat;
+}
+
+button,
+a {
+  @apply cursor-pointer border-none outline-none transition-colors;
+}
+
+h2 {
+  @apply text-[35px] tracking-[-0.03em] font-semibold mb-[20px] text-center text-white;
+}
+
+section {
+  @apply text-[18px] mb-[40px] tracking-[-0.03em];
+}
+
+/**
+  |============================
+  | custom styles
+  |============================
+*/
+.custom-shadow {
+  box-shadow: 6px 6px 6px #191b1e, -6px -6px 8px #202226;
+}
+.custom-shadow-item {
+  box-shadow: 3px 3px 3px #191b1e;
+}
+
+/**
+  |============================
+  | timeline styles
+  |============================
+*/
+.vertical-timeline-element-content {
+  background: #fafafa !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid #fafafa !important;
 }

@@ -18,7 +18,6 @@ export const Modal = ({
   img,
   toggleModal,
 }) => {
-  console.log(technologies);
   useEffect(() => {
     const handleEscape = (e) => {
       if (e.code === "Escape") {

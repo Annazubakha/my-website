@@ -11,7 +11,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="h-[80px] py-[15px] flex items-center justify-between">
+      <header className="fixed top-0 left-0 h-[80px] w-full container py-[15px] flex items-center justify-between bg-main-bg z-10">
         <Logo />
         {windowSize <= 1440 && (
           <button onClick={toggleBurgerMenu}>

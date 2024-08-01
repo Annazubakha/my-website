@@ -7,7 +7,7 @@ import { Icon, Title } from "../index";
 
 export const Education = () => {
   return (
-    <section className="text-[#202226] mt-[80px]">
+    <section className="text-[#202226]" id="education">
       <Title>Education</Title>
       <VerticalTimeline>
         <VerticalTimelineElement

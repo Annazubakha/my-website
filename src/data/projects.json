@@ -38,7 +38,7 @@
       "figma",
       "github"
     ],
-    "img": "src/assets/images/nanniesServices.png"
+    "img": "images/nanniesServices.png"
   },
 
   {
@@ -59,7 +59,7 @@
       "npm",
       "github"
     ],
-    "img": "src/assets/images/taskPro.png"
+    "img": "images/taskPro.png"
   },
   {
     "id": "4",
@@ -79,7 +79,7 @@
       "npm",
       "github"
     ],
-    "img": "src/assets/images/tracker.png"
+    "img": "images/tracker.png"
   },
   {
     "id": "5",
@@ -89,6 +89,6 @@
     "websiteLink": "https://dimkagrek.github.io/AsyncAvengers/",
     "repoLink": "https://github.com/DimkaGrek/AsyncAvengers",
     "technologies": ["js", "css", "html", "figma", "vscode", "github"],
-    "img": "src/assets/images/boutique.png"
+    "img": "images/boutique.png"
   }
 ]

@@ -31,6 +31,10 @@ section {
   box-shadow: 3px 3px 3px #191b1e;
 }
 
+.custom-shadow-hero {
+  box-shadow: 5px 5px 8px #191b1e;
+}
+
 /**
   |============================
   | timeline styles
@@ -42,4 +46,47 @@ section {
 
 .vertical-timeline-element-content-arrow {
   border-right: 7px solid #fafafa !important;
+}
+
+/**
+  |============================
+  | go up button styles
+  |============================
+*/
+.scroll-to-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202226 !important;
+  right: 20px !important;
+  border-radius: 50% !important;
+}
+.scroll-to-top:hover,
+.scroll-to-top:focus {
+  opacity: 0.6;
+}
+
+/**
+  |============================
+  | 
+  |============================
+*/
+/* Основні стилі для бургер-меню */
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; /* Задайте ширину на ваш розсуд */
+  height: 100%;
+  background-color: var(--main-bg); /* Ваш фоновий колір */
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 20;
+}
+
+/* Клас для показу меню */
+.burger-menu-open {
+  transform: translateX(0);
+  opacity: 1;
 }

@@ -1,6 +1,6 @@
+import { useState } from "react";
 import { BurgerMenu, Icon, Logo } from "../index";
 import { useWindowSizeHook } from "../../helpers";
-import { useState } from "react";
 
 export const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -8,11 +8,16 @@ export const Header = () => {
   const toggleBurgerMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <header className="fixed top-0 left-0 h-[80px] w-full container py-[15px] flex items-center justify-between bg-main-bg z-10">
-        <Logo />
+        <Logo scrollToTop={scrollToTop} />
         {windowSize <= 1440 && (
           <button onClick={toggleBurgerMenu}>
             <Icon
@@ -23,7 +28,12 @@ export const Header = () => {
           </button>
         )}
       </header>
-      {isMobileMenuOpen && <BurgerMenu toggleBurgerMenu={toggleBurgerMenu} />}
+      {isMobileMenuOpen && (
+        <BurgerMenu
+          toggleBurgerMenu={toggleBurgerMenu}
+          isOpen={isMobileMenuOpen}
+        />
+      )}
     </>
   );
 };

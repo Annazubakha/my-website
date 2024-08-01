@@ -12,3 +12,7 @@ export * from "./Languages/Languages";
 export * from "./Projects/Projects";
 export * from "./Projects/ProjectItem";
 export * from "./Modal/Modal";
+export * from "./Hero/Hero";
+export * from "./Сontacts/Contacts";
+export * from "./GetInTouch/GetInTouch";
+export * from "./GoUpBth/GoUpBtn";

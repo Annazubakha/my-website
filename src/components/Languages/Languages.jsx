@@ -3,7 +3,7 @@ import languages from "../../data/languages.json";
 
 export const Languages = () => {
   return (
-    <section>
+    <section id="languages">
       <Title>Languages</Title>
       <ul className="flex flex-col    gap-[15px]">
         {languages.map((language, index) => (

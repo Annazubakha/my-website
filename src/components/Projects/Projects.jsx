@@ -3,7 +3,7 @@ import projects from "../../data/projects.json";
 
 export const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <Title>My projects</Title>
       <ul className="flex flex-wrap items-center justify-between  gap-[20px]">
         {projects?.map((project) => (

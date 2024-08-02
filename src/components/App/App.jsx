@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   Header,
   Education,
@@ -12,6 +13,14 @@ import {
 } from "../index";
 
 export const App = () => {
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+    window.scrollTo(0, 0);
+    return () => {
+      window.history.scrollRestoration = "auto";
+    };
+  }, []);
+
   return (
     <div className="container">
       <Header />

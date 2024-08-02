@@ -12,11 +12,11 @@ a {
 }
 
 h2 {
-  @apply text-[35px] tracking-[-0.03em] font-semibold mb-[20px] text-center text-white;
+  @apply text-[35px] tracking-[-0.03em] font-semibold mb-[20px] text-center text-white lg:text-[40px];
 }
 
 section {
-  @apply text-[18px] mb-[40px] tracking-[-0.03em];
+  @apply text-[18px] mb-[40px] tracking-[-0.03em] lg:mb-[60px];
 }
 
 /**
@@ -48,6 +48,11 @@ section {
   border-right: 7px solid #fafafa !important;
 }
 
+@media screen and (min-width: 1440px) {
+  .vertical-timeline-element-date {
+    color: #fafafa !important;
+  }
+}
 /**
   |============================
   | go up button styles
@@ -60,6 +65,12 @@ section {
   background-color: #202226 !important;
   right: 20px !important;
   border-radius: 50% !important;
+}
+@media screen and (min-width: 1440px) {
+  .scroll-to-top {
+    width: 60px !important;
+    height: 60px !important;
+  }
 }
 .scroll-to-top:hover,
 .scroll-to-top:focus {

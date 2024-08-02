@@ -7,7 +7,7 @@ import { Icon, Title } from "../index";
 
 export const Education = () => {
   return (
-    <section className="text-[#202226]" id="education">
+    <section className="text-[#202226] overflow-hidden" id="education">
       <Title>Education</Title>
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -16,7 +16,7 @@ export const Education = () => {
           iconStyle={{ background: "#9736bb" }}
           icon={<Icon id="hat" className=" fill-white" />}
         >
-          <h3 className="vertical-timeline-element-title font-medium">
+          <h3 className="vertical-timeline-element-title font-semibold">
             FullStuck Developer
           </h3>
           <p>GoIT, Ukraine </p>
@@ -27,7 +27,7 @@ export const Education = () => {
           iconStyle={{ background: "#9736bb" }}
           icon={<Icon id="hat" className=" fill-white" />}
         >
-          <h3 className="vertical-timeline-element-title font-medium">
+          <h3 className="vertical-timeline-element-title font-semibold">
             Accounting and taxation
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -41,7 +41,7 @@ export const Education = () => {
           iconStyle={{ background: "#9736bb" }}
           icon={<Icon id="hat" className=" fill-white" />}
         >
-          <h3 className="vertical-timeline-element-title font-medium">
+          <h3 className="vertical-timeline-element-title font-semibold">
             Accounting and taxation
           </h3>
           <h4 className="vertical-timeline-element-subtitle">

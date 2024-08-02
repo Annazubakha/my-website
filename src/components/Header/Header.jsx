@@ -31,8 +31,8 @@ export const Header = () => {
       )}
       {windowSize >= 1440 && (
         <nav>
-          <ul className="flex gap-[10px] text-[20px]  tracking-[-0.03em] uppercase ">
-            <li>
+          <ul className="flex gap-[10px] text-[20px]  tracking-[-0.03em] uppercase lg:gap-[14px] ">
+            <li className="item">
               <Link
                 to="aboutme"
                 spy={true}
@@ -44,7 +44,7 @@ export const Header = () => {
                 About me
               </Link>
             </li>
-            <li>
+            <li className="item">
               <Link
                 to="education"
                 spy={true}
@@ -56,7 +56,7 @@ export const Header = () => {
                 Education
               </Link>
             </li>
-            <li>
+            <li className="item">
               <Link
                 to="languages"
                 spy={true}
@@ -68,7 +68,7 @@ export const Header = () => {
                 Languages
               </Link>
             </li>
-            <li>
+            <li className="item">
               <Link
                 to="technologies"
                 spy={true}
@@ -80,7 +80,7 @@ export const Header = () => {
                 Hard skills
               </Link>
             </li>
-            <li>
+            <li className="item">
               <Link
                 to="soft"
                 spy={true}
@@ -92,7 +92,7 @@ export const Header = () => {
                 Soft skills
               </Link>
             </li>
-            <li>
+            <li className="item">
               <Link
                 to="projects"
                 spy={true}

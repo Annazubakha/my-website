@@ -35,6 +35,9 @@ section {
   box-shadow: 5px 5px 8px #191b1e;
 }
 
+.item {
+  @apply relative after:content-[''] after:absolute after:top-0 after:right-[-5px] after:h-full after:w-[1px] after:bg-white;
+}
 /**
   |============================
   | timeline styles
@@ -76,9 +79,3 @@ section {
 .scroll-to-top:focus {
   opacity: 0.6;
 }
-
-/**
-  |============================
-  | 
-  |============================
-*/

@@ -12,7 +12,7 @@ export const Education = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2017 - 2021"
+          date="2023 - 2024"
           iconStyle={{ background: "#9736bb" }}
           icon={<Icon id="hat" className=" fill-white" />}
         >
@@ -23,7 +23,7 @@ export const Education = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2023 - 2024"
+          date="2021 - 2022"
           iconStyle={{ background: "#9736bb" }}
           icon={<Icon id="hat" className=" fill-white" />}
         >
@@ -37,7 +37,7 @@ export const Education = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2021 - 2022"
+          date="2017 - 2021"
           iconStyle={{ background: "#9736bb" }}
           icon={<Icon id="hat" className=" fill-white" />}
         >

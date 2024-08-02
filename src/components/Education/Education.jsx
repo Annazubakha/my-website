@@ -17,7 +17,7 @@ export const Education = () => {
           icon={<Icon id="hat" className=" fill-white" />}
         >
           <h3 className="vertical-timeline-element-title font-semibold">
-            FullStuck Developer
+            FullStack Developer
           </h3>
           <p>GoIT, Ukraine </p>
         </VerticalTimelineElement>

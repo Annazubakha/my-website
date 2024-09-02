@@ -1,6 +1,28 @@
 [
   {
     "id": "1",
+    "title": "E-Pharmacy",
+    "description": "The website for buying medicine",
+    "done": "front and back parts of the site",
+    "websiteLink": "https://e-pharmacy-eight.vercel.app/home",
+    "repoLink": "https://github.com/Annazubakha/E-Pharmacy",
+    "technologies": [
+      "react",
+      "redux",
+      "js",
+      "typescript",
+      "css",
+      "html",
+      "figma",
+      "vscode",
+      "npm",
+      "github",
+      "tailwind"
+    ],
+    "img": "images/pharmacy.png"
+  },
+  {
+    "id": "1",
     "title": "petLove",
     "description": "The website for pet lovers",
     "done": "all of the site",
@@ -16,7 +38,7 @@
       "vscode",
       "npm",
       "github",
-      "taiwind"
+      "tailwind"
     ],
     "img": "images/petLove.png"
   },
